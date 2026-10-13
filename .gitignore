@@ -1,0 +1,17 @@
+# PlatformIO / ESP-IDF build output
+.pio/
+build/
+sdkconfig.*
+!sdkconfig.defaults
+
+# Python
+__pycache__/
+*.pyc
+
+# Viewer screenshots can contain what the device displayed (PINs, recovery words)
+captures/
+
+# Local secrets / editor
+.env*
+.vscode/
+.idea/
